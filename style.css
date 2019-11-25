@@ -1,0 +1,25 @@
+body{
+    background: goldenrod;
+}
+#boutonGenerer{
+    margin-left: 440px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    width: 150px;
+    height: 45px;
+    border: 2px solid #80352A;
+    background: #F5FFFA;
+    font-family: "Comic Sans MS";
+    color: darkred;
+}
+
+#histoire2{
+    width: 850px;
+    border: #80352a 2px solid;
+    margin-left: 50px;
+    padding-left: 40px;
+    font-family: "Comic Sans MS";
+    color: darkred;
+    background: mintcream;
+
+}
