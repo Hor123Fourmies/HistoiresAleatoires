@@ -21,6 +21,7 @@ var verbes = ['danser' ,'frapper' ,'lubrifier', 'trikiter', 'procrastiner', 'fou
 
 var boutonGenerer = document.getElementById('boutonGenerer');
 
+
 var genre =" ";
 var ou = " ";
 
@@ -29,6 +30,8 @@ boutonGenerer.addEventListener('click', function () {
     var paragraphe = document.createElement("p");
     paragraphe.className = "para";
 
+    var inputNom = document.getElementById('inputNom').value;
+    noms.push(inputNom);
 
 //Noms
 var numRandomNoms = Math.floor(Math.random()*noms.length);
@@ -205,9 +208,8 @@ var motRandomObjets = objets[numRandomObjets];
     }
     paragraphe.innerHTML+=" et achète "+ motRandomObjets+".";
 
-document.getElementById('histoire2').appendChild(paragraphe);
-
-
 })
 }
+
 generer();
+

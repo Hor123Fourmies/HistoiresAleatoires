@@ -3,7 +3,18 @@ body{
 }
 #boutonGenerer{
     margin-left: 440px;
+    margin-bottom: 15px;
+    width: 150px;
+    height: 45px;
+    border: 2px solid #80352A;
+    background: #F5FFFA;
+    font-family: "Comic Sans MS";
+    color: darkred;
+}
+
+input{
     margin-top: 45px;
+    margin-left: 440px;
     margin-bottom: 45px;
     width: 150px;
     height: 45px;
@@ -11,6 +22,7 @@ body{
     background: #F5FFFA;
     font-family: "Comic Sans MS";
     color: darkred;
+    text-align: center;
 }
 
 #histoire2{
